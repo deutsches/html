@@ -1,0 +1,170 @@
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 190px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 60px;
+}
+
+.shopping_cart {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+header a {
+    text-decoration: none;
+    color: #3F5D45;
+    display: block;
+    line-height: 22px;
+    height: 22px;
+}
+
+header a:hover {
+    color: greenyellow;
+}
+
+.content {
+    display: flex;
+    margin-top: 60px;
+}
+
+.menu {
+    text-align: center;
+    min-width: 300px;
+}
+
+.menu_header {
+    font: normal normal 600 24px/40px PingFang TC;
+    letter-spacing: 0px;
+    padding: 16px 66px 16px 66px;
+    color: #EAF0ED;
+    background: #3F5D45 0% 0% no-repeat padding-box;
+}
+
+.menu li {
+    border: 1px solid #EAF0ED;
+    font: normal normal 600 24px/40px PingFang TC;
+}
+
+.menu li a {
+    padding: 16px 66px 16px 66px;
+    text-decoration: none;
+    color: #3F5D45;
+    display: block;
+}
+
+.menu li:active {
+    background: #EAF0ED 0% 0% no-repeat padding-box;
+}
+
+.menu li a:hover {
+    background: #EAF0ED 0% 0% no-repeat padding-box;
+}
+
+.main ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main img {
+    display: block;
+}
+
+.main li {
+    margin-left: 20px;
+    border: 1px solid #EAF0ED;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.porduct_name {
+    font: normal normal 500 20px/20px "Microsoft JhengHei";
+    letter-spacing: 0px;
+    color: #3F5D45;
+    padding: 14px 33px 14px 33px;
+    border: 1px solid #EAF0ED;
+    display: inline-block;
+}
+
+.product_price {
+    font: normal normal 800 20px/20px "Microsoft JhengHei";
+    letter-spacing: 0px;
+    color: #3F5D45;
+    padding: 14px 20px 14px 25px;
+    display: inline-block;
+}
+
+.add_chart {
+    color: #3F5D45;
+    background: #EAF0ED 0% 0% no-repeat padding-box;
+    padding: 16px 90px 16px 90px;
+    font: normal normal 600 24px/20px PingFang TC;
+    border: none;
+}
+
+.add_chart:hover {
+    background: #3F5D45 0% 0% no-repeat padding-box;
+    color: #EAF0ED;
+    cursor: pointer;
+}
+
+.special {
+    font: normal normal 600 16px/20px "Microsoft JhengHei";
+    background: #3F5D45 0% 0% no-repeat padding-box;
+    color: #EAF0ED;
+    writing-mode: vertical-lr;
+    position: absolute;
+    padding: 8px;
+    letter-spacing: 5px;
+    left: 20px;
+}
+
+.fav {
+    position: absolute;
+    left: 258px;
+    top: 20px;
+}
+
+.fav:hover {
+    cursor: pointer;
+}
+
+.page {
+    display: flex;
+    float: right;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+.page a {
+    border: 1px solid #EAF0ED;
+    padding: 16px 24px 16px 24px;
+    height: 28px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #3F5D45;
+    display: block;
+}
+
+.page a:hover {
+    background-color: #EAF0ED;
+    color: blue;
+    cursor: pointer;
+}

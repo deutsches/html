@@ -1,0 +1,140 @@
+body {
+    font-family: "SF Pro Text", "Microsoft JhengHei;";
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 2px solid black;
+    margin-bottom: 48px;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 24px;
+    font: normal normal normal 80px/95px "Microsoft JhengHei";
+}
+
+.pic {
+    margin-bottom: 48px;
+}
+
+.title {
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.tw {
+    margin-right: 16px;
+    font: normal normal bolder 32px/48px "Microsoft JhengHei";
+}
+
+.eng {
+    font: normal normal 600 24px/29px "Microsoft JhengHei";
+    color: #A00404;
+}
+
+.profile {
+    margin-bottom: 48px
+}
+
+.content li {
+    margin-bottom: 24px;
+    font: normal normal 500 24px/36px "Microsoft JhengHei";
+}
+
+.special {
+    background: #415165 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+.special .title {
+    border-bottom: 1px solid white;
+}
+
+.special .eng {
+    color: white;
+}
+
+.skills {
+    width: 996px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    margin-bottom: 72px;
+}
+
+.skills .title {
+    margin-bottom: 40px;
+}
+
+.skills li {
+    border-left: 1px solid white;
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 24px;
+    font: normal normal 300 24px/36px "Microsoft JhengHei";
+}
+
+.experience {
+    margin-bottom: 40px;
+}
+
+.experience h5 {
+    font: normal normal bold 24px/36px "Microsoft JhengHei";
+}
+
+.experience p {
+    width: 642px;
+    font: normal normal 500 20px/30px "Microsoft JhengHei";
+}
+
+.experience ul {
+    border-left: 1px solid black;
+    padding-left: 24px;
+    margin-left: 24px;
+}
+
+.experience li {
+    margin-bottom: 32px;
+}
+
+.experience img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contact ul {
+    font: normal normal 300 24px/36px "Microsoft JhengHei";
+}
+
+.contact li {
+    margin-bottom: 16px;
+}
+
+.contact .title {
+    margin-bottom: 32px;
+}
+
+.contact li img {
+    margin-right: 24px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+}
