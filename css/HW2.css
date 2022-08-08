@@ -66,8 +66,20 @@ h1 {
     margin-bottom: 56px;
 }
 
+.spot {
+    width: 5px;
+    height: 5px;
+    border-radius: 999em;
+    background-color: black;
+}
+
+.spots {
+    font-size: 32px;
+    color: #891818;
+    margin-right: 16px;
+}
+
 .feature li {
-    list-style: circle;
     margin-top: 28px;
 }
 
