@@ -1,0 +1,555 @@
+    .container {
+        max-width: 1296px;
+        margin: 0 auto;
+    }
+    
+    header {
+        background: #AA0601 0% 0% no-repeat padding-box;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 50px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .header ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header li {
+        margin-left: 64px;
+    }
+    
+    .header li a {
+        text-decoration: none;
+        color: white;
+        font: normal normal 500 20px/30px Source Han Sans TW;
+    }
+    
+    .header li a:hover {
+        cursor: pointer;
+        color: lightseagreen;
+    }
+    
+    .banner {
+        height: 1100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
+    }
+    
+    .banner div {
+        text-align: right;
+        padding-top: 196px;
+    }
+    
+    .banner button:hover {
+        cursor: pointer;
+    }
+    
+    .bg_pink {
+        background: #FBF2F2 0% 0% no-repeat padding-box;
+    }
+    
+    .slogan {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .slogan ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    h2 {
+        text-align: center;
+        font: normal normal bold 48px/72px Source Han Sans TW;
+    }
+    
+    h1 {
+        color: #650300;
+        font: normal normal bold 64px/96px Source Han Sans TW;
+    }
+    
+    h3 {
+        font: normal normal normal 36px/54px Source Han Sans TW;
+        color: #650300;
+    }
+    
+    .banner button {
+        color: #FFFFFF;
+        background: #AA0601 0% 0% no-repeat padding-box;
+        border: none;
+        padding: 6px 12px 6px 12px;
+        font: normal normal 500 20px/30px Source Han Sans TW;
+    }
+    
+    .slogan h2 {
+        color: #650300;
+        margin-bottom: 32px;
+    }
+    
+    .slogan h5 {
+        color: #650300;
+        text-align: center;
+        font: normal normal bold 24px/36px Source Han Sans TW;
+        margin-bottom: 8px;
+    }
+    
+    .slogan li {
+        width: 306px;
+    }
+    
+    .slogan img {
+        width: 84px;
+        height: 84px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    
+    .slogan p {
+        font: normal normal 600 16px/24px Source Han Sans TW;
+    }
+    
+    .classical {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .classical h2 {
+        color: #650300;
+        margin-bottom: 48px;
+    }
+    
+    .classical ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .classical img {
+        width: 416px;
+    }
+    
+    .classical h4 {
+        font: italic normal 900 48px/72px Roboto;
+        letter-spacing: 0px;
+        color: #AA0601;
+        text-align: center;
+    }
+    
+    .design {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true");
+    }
+    
+    .design ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .design img {
+        width: 648px;
+        height: 240px;
+    }
+    
+    .design div {
+        font: italic normal 900 48px/72px Roboto;
+        color: #AA0601;
+        background-color: white;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .design h2 {
+        color: white;
+        margin-bottom: 48px;
+    }
+    
+    .recommand {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .recommand h2 {
+        color: #650300;
+        margin-bottom: 48px;
+    }
+    
+    .recommand ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .recommand li {
+        max-width: 306px;
+        box-shadow: 0px 2px 6px #00000029;
+        font: normal normal 500 16px/24px Source Han Sans TW;
+    }
+    
+    .recommand_content {
+        height: 205px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .recommand_content p {
+        margin-top: 8px;
+    }
+    
+    .date {
+        font: normal normal 300 14px/21px Source Han Sans TW;
+    }
+    
+    .contact_us {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        max-width: 636px;
+        margin: 0 auto;
+    }
+    
+    .contact_us h2 {
+        color: #650300;
+        margin-bottom: 48px;
+    }
+    
+    .contact_us p {
+        font: normal normal 500 20px/30px Source Han Sans TW;
+        margin-bottom: 24px;
+    }
+    
+    .div_submit {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .submit {
+        padding: 16px 176px 16px 176px;
+        color: #FFFFFF;
+        background: #AA0601 0% 0% no-repeat padding-box;
+        border: none;
+        font: normal normal bold 16px/24px Source Han Sans TW;
+        margin-top: 48px;
+    }
+    
+    .submit:hover {
+        background: #650300 0% 0% no-repeat padding-box;
+        cursor: pointer;
+    }
+    
+    label {
+        font: normal normal 700 16px/24px Source Han Sans TW;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    .input {
+        border: 1px solid #000000;
+        width: 100%;
+        BACKGROUND-COLOR: transparent;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        margin-bottom: 16px;
+        font: normal normal 500 16px/24px Source Han Sans TW;
+        box-sizing: border-box;
+    }
+    
+    textarea {
+        BACKGROUND-COLOR: transparent;
+        width: 100%;
+        height: 136px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        resize: none;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+    
+     ::-webkit-input-placeholder {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+    }
+    
+    @media (max-width:767px) {
+        .slogan {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+        .slogan ul {
+            display: inline;
+        }
+        .slogan li {
+            width: 100%;
+        }
+        .slogan p {
+            width: 348px;
+            margin: 0 auto;
+        }
+        .classical {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+        .classical ul {
+            display: inline;
+        }
+        .classical img {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .classical li {
+            margin-bottom: 24px;
+        }
+        .design {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+        .design ul {
+            display: inline;
+        }
+        .design img {
+            max-width: 100%;
+        }
+        .recommand {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+        .recommand ul {
+            display: inline;
+        }
+        .recommand li {
+            max-width: 100%;
+            margin-bottom: 16px;
+        }
+        .contact_us {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 14px;
+            padding-right: 14px;
+            max-width: 100%;
+        }
+        .contact_us p {
+            font: normal normal 500 16px/24px Source Han Sans TW;
+        }
+        .submit {
+            padding-left: 142px;
+            padding-right: 142px;
+            margin-left: 0px;
+        }
+        textarea {
+            max-width: 100%;
+        }
+        .input {
+            max-width: 100%;
+        }
+        .banner {
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
+        }
+        .banner div {
+            text-align: right;
+            padding-top: 100px;
+            padding-right: 10px;
+        }
+        h1 {
+            font: normal normal bold 24px/36px Source Han Sans TW;
+        }
+        h3 {
+            font: normal normal normal 16px/24px Source Han Sans TW;
+        }
+        .banner button {
+            border: none;
+            padding: 6px 12px 6px 12px;
+            font: normal normal 500 20px/30px Source Han Sans TW;
+        }
+    }
+    
+    footer {
+        background: #AA0601 0% 0% no-repeat padding-box;
+    }
+    
+    .footer_top {
+        margin-bottom: 32px;
+        border-bottom: 1px solid white;
+        padding-bottom: 32px;
+        padding-top: 48px;
+    }
+    
+    .footer_top img {
+        height: 48px;
+        width: 48px;
+    }
+    
+    .link ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    .link {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+    
+    .social_media li {
+        margin-left: 32px;
+    }
+    
+    .web_link a {
+        text-decoration: none;
+        font: normal normal 500 16px/21px Source Han Sans TW;
+        color: white;
+    }
+    
+    .web_link li {
+        margin-right: 48px;
+    }
+    
+    .pic {
+        color: white;
+        margin-right: 20px;
+    }
+    
+    .contact a {
+        text-decoration: none;
+        font: normal normal 500 36px/54px Source Han Sans TW;
+        color: white;
+    }
+    
+    .footer_bottom {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 32px;
+    }
+    
+    .footer_bottom a {
+        text-decoration: none;
+    }
+    
+    .footer_bottom ul {
+        display: flex;
+    }
+    
+    .footer_bottom li {
+        margin-left: 48px;
+    }
+    
+    .footer_text {
+        font: normal normal 500 14px/21px Source Han Sans TW;
+        color: white;
+    }
+    
+    .rwd_footer_top,
+    .rwd_footer_bottom,
+    .rwd_header,
+    .menu {
+        display: none;
+    }
+    
+    @media (max-width:767px) {
+        .container {
+            max-width: 100%;
+        }
+        .header {
+            justify-content: center;
+        }
+        .header ul {
+            display: none;
+        }
+        .menu {
+            display: none;
+            color: white;
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+        .rwd_header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .rwd_header li {
+            border: 1px solid white;
+            width: 50%;
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            box-sizing: border-box;
+        }
+        .rwd_header a {
+            font: normal normal 500 16px/24px Source Han Sans TW;
+            color: white;
+            text-decoration: none;
+        }
+        footer {
+            padding: 24px 15px 16px 15px;
+        }
+        .footer_top {
+            display: none;
+        }
+        .footer_bottom {
+            display: none;
+        }
+        .footer_text {
+            font: normal normal 500 16px/24px Source Han Sans TW;
+        }
+        a {
+            text-decoration: none;
+        }
+        .rwd_footer_top {
+            display: flex;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            justify-content: space-between;
+            border-bottom: 1px solid white;
+        }
+        .social_media img {
+            height: 24px;
+            width: 24px;
+        }
+        .social_media {
+            display: flex;
+        }
+        .social_media li {
+            margin-left: 8px;
+        }
+        .contact a {
+            font: normal normal 500 16px/24px Source Han Sans TW;
+        }
+        .pic {
+            margin-right: 11px;
+        }
+        .contact li {
+            margin-bottom: 8px;
+        }
+        .rwd_footer_bottom li {
+            margin-bottom: 8px;
+        }
+        h2 {
+            font: normal normal bold 24px/36px Source Han Sans TW;
+            margin-bottom: 24px;
+        }
+    }
